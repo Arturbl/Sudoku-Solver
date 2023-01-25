@@ -3,3 +3,8 @@
 
 
 ## Problem
+	![alt text](https://github.com/Arturbl/Sudoku-Solver/blob/main/utils/images/problem.jpeg)
+
+
+## Solution
+	![alt text](https://github.com/Arturbl/Sudoku-Solver/blob/main/utils/images/solution.jpeg)
