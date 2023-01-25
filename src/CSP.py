@@ -10,7 +10,6 @@ class CSP:
 		self.populate_vars_domains(self.game)
 		self.populate_constraints_neighbours()
 
-
 	def populate_constraints_neighbours(self):
 		for var in self.vars:
 			new_domain= list() 
@@ -39,10 +38,10 @@ class CSP:
 	def populate_vars_domains(self,game):
 		for row in range(9):
 			for column in range(9):
-				self.vars.append(str(column)+' '+str(row))
-				domain_for_coordenate= []
-				if game[row][column] ==0:
+				self.vars.append(str(column) + ' ' + str(row))
+				domain_for_coordenate = []
+				if game[row][column] == 0:
 					domain_for_coordenate = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 				else:
 					domain_for_coordenate.append(game[row][column])
-				self.domains[str(column)+' '+str(row)] = domain_for_coordenate
+				self.domains[str(column) + ' ' + str(row)] = domain_for_coordenate
