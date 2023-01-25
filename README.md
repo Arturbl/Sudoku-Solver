@@ -10,7 +10,7 @@
     If a solution is not found, the algorithm returns false.
 
 ## Problem
-&nbsp;&nbsp;![alt text](https://github.com/Arturbl/Sudoku-Solver/blob/main/utils/images/prob.jpeg)
+&nbsp;&nbsp;![alt text](https://github.com/Arturbl/Sudoku-Solver/blob/main/utils/images/probl.jpeg)
 
 
 ## Solution
